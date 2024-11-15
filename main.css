@@ -1,0 +1,164 @@
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    font-family: "DM Sans", serif;
+    color: firebrick;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: auto;
+    font-family: "DM Sans", serif;
+    font-weight: bold;
+    font-size: 28pt;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: auto;
+    font-family: "DM Sans", serif;
+    font-size: 14pt;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: -10px;
+}
+
+/*this contains the picture for desktop*/
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    display: block;
+    }
+
+h5 {
+    margin: auto;
+    font-family: "DM Sans", serif;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    font-family:  "DM Sans", serif;
+    font-size: 12pt;
+    text-align: auto;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+/*this is a container for the graphs*/
+
+/*VOTER REGISTRATION GRAPH*/
+.votersregistered
+{
+    margin: auto;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+
+/*CORRECTIONS DATA LINE GRAPH*/
+.correctionsdata
+{
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+/*YOUTH DATA LINE GRAPH*/
+.youthdata
+{
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box
+{   margin: 50px; 
+}        
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+   html, body {
+    font-size: 16px;
+    font-family: "DM Sans", serif;
+    color: saddlebrown;
+    background-color: antiquewhite;
+}
+
+p {
+    margin: auto;
+    max-width: 1000px;
+    font-family:  "DM Sans", serif;
+    font-size: 14pt;
+    text-align: auto;
+    padding-block: 1pt;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }   
+
+body {
+    background-color: antiquewhite;
+}
+
+figure {
+    max-width: 1000px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*this contains the picture*/
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+    display: block;
+}
+
+/*this contains the whole website*/
+.box
+{   margin: auto;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
